@@ -1,3 +1,9 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
  .navi {
      max-width: 1100px;
      display: flex;
@@ -37,4 +43,119 @@
 
  .btn a:hover {
      background-color: rgb(137, 128, 111);
+ }
+
+
+
+
+
+ .hero {
+     width: 100%;
+     min-height: 600px;
+     background-image: url("./assets/hero-bg.png");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 80px 20px;
+ }
+
+ .hero-content {
+     text-align: center;
+     max-width: 900px;
+     color: white;
+ }
+
+ .badge {
+     display: inline-block;
+     margin-bottom: 24px;
+
+
+ }
+
+ .badge button {
+     background-color: white;
+     color: green;
+
+     padding: 8px 16px;
+     border-radius: 20px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+
+ .hero-title {
+     font-size: 56px;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 24px;
+     color: white;
+ }
+
+ .hero-title .highlight {
+     color: #22C55E;
+ }
+
+ .hero-description {
+     font-size: 18px;
+     line-height: 1.6;
+     margin-bottom: 32px;
+     color: rgba(255, 255, 255, 0.9);
+ }
+
+ .hero-buttons {
+     display: flex;
+     gap: 16px;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .btn-primary {
+     background-color: #22C55E;
+     color: white;
+     padding: 14px 28px;
+     border-radius: 8px;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 600;
+     transition: background-color 0.3s ease;
+     display: inline-flex;
+     align-items: center;
+     gap: 8px;
+ }
+
+ .btn-primary img {
+     width: 20px;
+     height: 20px;
+     object-fit: contain;
+ }
+
+ .btn-primary:hover {
+     background-color: #199346;
+ }
+
+ .btn-secondary {
+     background-color: rgba(255, 255, 255, 0.1);
+     color: white;
+     padding: 14px 28px;
+     border-radius: 8px;
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 600;
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     transition: background-color 0.3s ease;
+     display: inline-flex;
+     align-items: center;
+     gap: 8px;
+ }
+
+ .btn-secondary img {
+     width: 16px;
+     height: 16px;
+     object-fit: contain;
+ }
+
+ .btn-secondary:hover {
+     background-color: rgba(255, 255, 255, 0.2);
  }
